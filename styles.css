@@ -166,7 +166,7 @@ nav li:hover {
     height: 30%;
     width: 40%;
     border-radius: 5rem;
-    transform: translate(0, 320%);
+    transform: translate(0, 210%);
     opacity: 30%;
 }
 
@@ -179,7 +179,7 @@ nav li:hover {
     height: 30%;
     width: 40%;
     border-radius: 5rem;
-    transform: translate(0, 320%);
+    transform: translate(0, 210%);
     opacity: 30%;
 }
 
@@ -306,7 +306,9 @@ nav li:hover {
     opacity: 40%;
     font-size: 1.5rem;
 }
-
+.footer-links-li:hover{
+    color: aliceblue;
+}
 .footer-links:hover {
     opacity: 100%;
 }
@@ -314,6 +316,10 @@ nav li:hover {
 .footer-socials {
     width: 10%;
     justify-content: space-between;
+}
+.footer-socials li:hover{
+    opacity: 100%;
+    color: aliceblue;
 }
 
 @media only screen and (max-width: 1200px) {
