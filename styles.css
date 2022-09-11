@@ -162,6 +162,7 @@ nav li:hover {
 
 .underline-div {
     background-color: var(--pry-yellow);
+    color: transparent;
     height: 30%;
     width: 40%;
     border-radius: 5rem;
